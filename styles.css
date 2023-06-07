@@ -1,0 +1,155 @@
+/* Reset de estilos para mayor consistencia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav img {
+  height: 40px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#hero {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#about {
+  background-color: #f9f9f9;
+}
+
+#why-participate {
+  background-color: #f5f5f5;
+}
+
+#prizes {
+  background-color: #eaeaea;
+}
+
+#sponsors {
+  background-color: #f9f9f9;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+}
+
+#why-participate ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#prizes ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.sponsor-logos img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+/* Estilos para el formulario de inscripción */
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para el fondo total de la página */
+body {
+  background-image: linear-gradient(to bottom, #f2f2f2, #eaeaea);
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p,
+  ul,
+  li {
+    font-size: 16px;
+  }
+
+  .sponsor-logos img {
+    width: 80px;
+    margin-right: 5px;
+  }
+}
